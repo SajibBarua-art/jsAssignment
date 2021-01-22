@@ -1,3 +1,4 @@
+//https://github.com/SajibBarua-art/jsAssignment
 function kilometerToMeter(kilometer) {
     // To check kilometer is a number or not
     if(typeof(kilometer) !== "number"){
@@ -87,6 +88,3 @@ function megaFriend(allFriendsName){
     let megaName = allFriendsName[indexOfMegaName];
     return megaName;
 }
-
-let meter = hotelCost(-23);
-console.log(meter);
